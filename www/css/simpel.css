@@ -1,0 +1,100 @@
+body {margin:0; padding: 0;}
+
+/* **** LOGIN PAGE ***** */
+#app-title{
+	text-align: center; font-family: serif; font-size: 0.8em;
+	text-shadow: 0px 0px 1px #999; line-height: 1.4;
+	margin-top: 0px; padding: 10px 0 10px 0; background: #000000;
+	color: #EEEEEE;
+}
+#loginWrapper{
+	margin-top: 25px; margin-left: auto; margin-right: auto;
+	padding: 15px; height: 300px;
+	border: 1px solid #D9534F; box-shadow: 0px 0px 1px #D9534F;
+	border-radius: 10px 0 10px 0; background: #FFA500;
+	max-width: 300px;
+}
+.login-title{
+	text-align: center; font-weight: bold;
+}
+.login-title p{
+	font-size: 18pt;
+}
+
+.login-body{
+	background: #FF7600;
+}
+
+/* **** DEFAULT PAGE ***** */
+#usercred{font-family:helvetica,arial; font-size:12pt; margin:0;
+	background: #FFA500; padding: 10px; box-shadow: 0px 0px 5px #000;
+	border-radius: 10px;}
+.simpel-default{
+	background: #FDCF38; color: #414902; font-family: serif;
+	font-size: 1.1em;
+}
+
+.simpel-menu{
+	list-style-type: none; margin: 5px auto; padding: 5px; 
+	text-align: center; max-width: 300px;
+	height: 400px;	overflow: auto;
+}
+.simpel-menu li{ margin: 10px auto; height: 70px;}
+.simpel-menu li img{ width: 98%; box-shadow: 0px 0px 10px #000;
+	border-radius: 10px; height: 100%;}
+
+#default-app-title{
+	text-align: center; font-family: serif; 
+	margin-top: 0px; padding: 10px 0 10px 0; background: #000000;
+	color: #EEEEEE;
+}
+
+#simpel-footer{
+	background: #000000; color: #AAAAAA; text-align: center; padding: 5px;
+	position: absolute; bottom: 0px; max-height: 60px; width: 100%;
+}
+
+#simpel-content{
+	background: #FDCF38; color: #333714; padding: 2px; margin: 0px 10px;
+	font-size: 1.4em; font-family: sans-serif;
+}
+
+#simpel-content ul{
+	list-style-type: none; border: 0px solid #000; padding: 5px;
+	}
+#simpel-content ul.act{padding:0;}
+/* #AAFF51; */
+#simpel-content ul li {
+	margin: 2px 0px; padding: 8px; background: #E9BA4C; min-height:40px;
+	border-radius: 2px; box-shadow: 0px 0px 2px #001070;
+}
+#simpel-content ul li a{text-decoration:none; color:#000;
+	font-size:10pt; font-family: arial,helvetica;}
+
+#simpel-content ul li.pro {padding-left: 20px;}
+#simpel-content ul li.sub {padding-left: 30px;}
+#simpel-content ul li.act {padding: 10px; margin:2px 0px;; 
+	border-radius: 0px;}
+#namaprogram{font-size:9pt; background: #FDCF38; box-shadow: 0px 0px 2px #000;
+	border:1px solid #FFA200; margin-bottom: 10px;}
+#namaprogram p label{width:100%; background:#FFA200; color: #333; padding: 5px;}
+#namaprogram p span{padding:0px 5px; display:block;}
+
+/* **** PROJECT INFO ***** */
+.act-group{border: 2px solid #444916; min-height: 80px; margin-bottom: 10px;}
+.act-group p{margin:0; line-height:1;}
+.act-title{min-height: 30px; color: #EEEEEE; font-weight:normal; 
+	padding-left: 10px; background: #444916; font-size: 14pt;}
+.title-small{font-size: 10pt;}
+.title-medium{font-size: 12pt;}
+
+p.info{margin:0; background: #FFA717; padding-left:5px;}
+p.data{margin:0; padding-left:15px; font-family: courier, monospace;
+	font-size: 10pt;}
+label.info{width: 150px;}
+span.menan{float:right; margin-right: 5px; }
+
+#namakeg{margin-bottom: 10px; padding: 10px;}
+.btn-gelap{background:#FFA800; color: #222;  border-radius:0px;}
+/* **** VALIDASI ***** */
+button.btn-default {background: orange; color:black; font-weight:bold;}
